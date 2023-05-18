@@ -1,7 +1,10 @@
-﻿namespace EcomApplicaion.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace EcomApplicaion.Models
 {
     public class VGA
     {
+        [Key]
         public int VGAID { get; set; }
         public string VGADescription { get; set; }
 

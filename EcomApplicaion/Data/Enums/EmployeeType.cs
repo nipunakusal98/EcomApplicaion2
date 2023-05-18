@@ -2,5 +2,7 @@
 {
     public enum EmployeeType
     {
+        Admin =1,
+        Employee
     }
 }
