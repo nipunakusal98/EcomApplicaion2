@@ -27,8 +27,8 @@ namespace EcomApplicaion.Models
 
         // Navigation properties
         public Customer Customer { get; set; }
-        public Models Model { get; set; }
-        public Processors Processor { get; set; }
+        public Model Model { get; set; }
+        public Processor Processor { get; set; }
         public Memory Memory { get; set; }
         public VGA VGA { get; set; }
         public AntivirusSoftware Antivirus { get; set; }

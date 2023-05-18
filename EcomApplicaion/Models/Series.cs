@@ -14,10 +14,10 @@ namespace EcomApplicaion.Models
 
         public int CategoryID { get; set; }
         [ForeignKey("CategoryID")]
-        public Categories Categories { get; set; } // Navigation properties
+        public Category Category { get; set; } // Navigation properties
 
         // Navigation properties
-        public List<Models> Models { get; set; }
+        public List<Model> Models { get; set; }
 
     }
 }

@@ -2,7 +2,7 @@
 
 namespace EcomApplicaion.Models
 {
-    public class Models
+    public class Model
     {
         [Key]
         public int ModelID { get; set; }

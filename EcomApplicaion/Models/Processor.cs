@@ -2,7 +2,7 @@
 
 namespace EcomApplicaion.Models
 {
-    public class Processors
+    public class Processor
     {
             [Key]
             public int ProcessorID { get; set; }
