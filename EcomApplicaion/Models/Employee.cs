@@ -1,14 +1,15 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using EcomApplicaion.Data.Enums;
+using System.ComponentModel.DataAnnotations;
 
 namespace EcomApplicaion.Models
 {
     public class Employee
     {
         [Key]
-        public int EmpID { get; set; }
-        public string EmpName { get; set; }
-        public string EmpEmail { get; set; }
-        public string EmpPassword { get; set; } 
-        public string EmpType { get; set; }
+        public int EmployeeID { get; set; }
+        public string EmployeeName { get; set; }
+        public string EmployeeEmail { get; set; }
+        public string EmployeePassword { get; set; } 
+        public EmployeeType EmployeeType { get; set; }
     }
 }
