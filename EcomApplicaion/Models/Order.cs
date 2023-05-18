@@ -12,7 +12,7 @@ namespace EcomApplicaion.Models
         public string BillingAddress { get; set; }
         public ShippingMethod ShippingMethod { get; set; }
         public DateTime OrderDate { get; set; }
-        public decimal TotalAmount { get; set; }
+        public int TotalAmount { get; set; }
         public string OrderStatus { get; set; }
 
         // Foreign keys

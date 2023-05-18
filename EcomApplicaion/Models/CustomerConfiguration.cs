@@ -22,7 +22,7 @@ namespace EcomApplicaion.Models
         public int AntivirusID { get; set; }
         [ForeignKey("AntivirusID")]
 
-        public decimal ConfigurationPrice { get; set; }
+        public int ConfigurationPrice { get; set; }
         //public bool IsCustomized { get; set; }
 
         // Navigation properties

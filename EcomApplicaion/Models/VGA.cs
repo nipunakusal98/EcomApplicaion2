@@ -9,7 +9,7 @@ namespace EcomApplicaion.Models
         public string VGADescription { get; set; }
 
         public string VGAPictureURL { get; set; }
-        public decimal Price { get; set; }
+        public int VGAPrice { get; set; }
 
 
         // Navigation properties

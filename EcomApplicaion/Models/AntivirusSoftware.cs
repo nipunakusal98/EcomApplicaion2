@@ -7,7 +7,7 @@ namespace EcomApplicaion.Models
         [Key]
         public int AntivirusID { get; set; }
         public string AntivirusDescription { get; set; }
-        public decimal Price { get; set; }
+        public int AntivirusPrice { get; set; }
 
         // Navigation properties
         public List<CustomerConfiguration> CustomerConfigurations { get; set; }
